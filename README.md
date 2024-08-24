@@ -7,7 +7,6 @@ This HTML file demonstrates the use of the CSS `:user-invalid` pseudo-class to s
 * [Introduction](#introduction)
 * [HTML Structure](#html-structure)
 * [CSS Styles](#css-styles)
-* [Example Use Case](#example-use-case)
 
 ## Introduction
 
@@ -17,8 +16,26 @@ The `:user-invalid` pseudo-class is a CSS selector that targets form fields that
 
 The HTML file consists of a simple form with a text input field and a submit button:
 ```html
-<form>
-  <label for="username">Username:</label>
-  <input type="text" id="username" required>
-  <button type="submit">Submit</button>
-</form>
+  <form>
+        <div class="form__field">
+            <input type="text" placeholder="Name" class="form__input" required>
+            <span class="icon"></span>
+        </div>
+        <div class="form__field">
+            <input type="email" placeholder="Email" class="form__input" required>
+            <span class="icon"></span>
+        </div>
+        <div class="form__field">
+            <input type="password" placeholder="Password" class="form__input" pattern=".{6,}" required>
+            <span class="icon"></span>
+        </div>
+    </form>
+The Css consists of:
+```Css
+   .form__input:user-invalid {
+            border-color: firebrick;
+        }
+
+        .form__input:user-invalid+.icon::after {
+            content: '❌';
+        }
