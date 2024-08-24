@@ -30,12 +30,16 @@ The HTML file consists of a simple form with a text input field and a submit but
             <span class="icon"></span>
         </div>
     </form>
+```
+## CSS Styles
+
 The Css consists of:
 ```Css
-   .form__input:user-invalid {
+        .form__input:user-invalid {
             border-color: firebrick;
         }
 
         .form__input:user-invalid+.icon::after {
             content: '❌';
         }
+```
