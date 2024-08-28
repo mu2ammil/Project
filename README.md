@@ -45,4 +45,4 @@ The Css consists of:
 ```
 ![Form demonstration Gif](https://github.com/user-attachments/assets/ac0c269d-eedf-46ee-99f4-d4e845939c75)
 
-<img src="https://i.imgur.com/ZWnhY9T.png](https://github.com/user-attachments/assets/ac0c269d-eedf-46ee-99f4-d4e845939c75" width="100%">
+<img src="https://github.com/user-attachments/assets/ac0c269d-eedf-46ee-99f4-d4e845939c75" width="100%">
