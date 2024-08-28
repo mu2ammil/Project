@@ -43,4 +43,4 @@ The Css consists of:
             content: '❌';
         }
 ```
-<img src="/images/output/video1.gif](https://github.com/user-attachments/assets/ac0c269d-eedf-46ee-99f4-d4e845939c75" width="100%"/>
+![ezgif-2-780d8c4791](https://github.com/user-attachments/assets/ac0c269d-eedf-46ee-99f4-d4e845939c75)
