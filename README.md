@@ -26,7 +26,8 @@ The HTML file consists of a simple form with a text input field and a submit but
             <span class="icon"></span>
         </div>
         <div class="form__field">
-            <input type="password" placeholder="Password" class="form__input" pattern=".{6,}" required>
+            <input type="password" placeholder="Password" class="form__input"
+              pattern=".{6,}" required>
             <span class="icon"></span>
         </div>
     </form>
